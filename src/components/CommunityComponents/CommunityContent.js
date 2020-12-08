@@ -119,74 +119,78 @@ function CommunityContent(){
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <h4>Generative Research</h4>
-                    <p>We were interested in learning about how people attend virtual events.
-                        We used the think-aloud protocol while a user explored AirBnb’s website.</p>
-                    <h5>Questions</h5>
-                    <ul>
-                        <li>Find a virtual event you would actually want to attend within the next week.
-                            Pretend you would actually attend the event -- the virtual event needs to fit into your schedule,
-                            and you would hypothetically need to pay for the event.</li>
-                        <li>Find a virtual dance class to attend with your family around Thanksgiving.</li>
-                        <li>You want to give a virtual experience to your friend for their birthday.
-                            Your friend is only available in the evenings to take this class.
-                            Find a virtual experience to gift to your friend.</li>
-                    </ul>
-                    <h5>Major Themes</h5>
-                    <ol>
-                        <li>Events should have a value proposition
-                            <ul>
-                                <li>Users seemed to primarily think about which experiences could give them the most value, or add to their lives in some way.</li>
-                                <li> When promoting an event, prioritize the channels that allow users to determine if a given event will add value (reviews/ratings, photos/videos, descriptions, etc.)</li>
-                            </ul>
-                        </li>
-                        <li>Virtual experience is worth less to users
-                            <ul>
-                                <li>Users don’t enjoy virtual experiences as much, so they are less willing to pay for virtual experiences.</li>
-                                <li>We should mimic the in-person experience as much as possible, and carefully select the event platform.</li>
-                            </ul>
-                        </li>
-                        <li>Filters are useful for finding events that match criteria
-                            <ul>
-                                <li>Users utilize filters to find events of interest and events that fit their schedule.</li>
-                                <li>We should consider have filter options when displaying the events list.</li>
-                            </ul>
-                        </li>
-                    </ol>
-                    <h4>Contextual Inquiry</h4>
-                    <p>We wanted to learn how artists, streamers, and other event hosts utilize different platforms to conduct their events, as well as the pain points (and what is going well) for the artists/streamers. How artists define a successful virtual event was also
-                        a key insight for us to gauge how streaming platforms may contribute to or inhibit the potential of a virtual class.</p>
-                    <h5>Target Participants</h5>
-                    <ul>
-                        <li>Student dance class instructor</li>
-                        <li>Pound (fitness) instructor </li>
-                        <li>Private music lesson teacher</li>
-                        <li>Yoga instructor</li>
-                        <li>COO (Chief Operating Officer) of Aish Toronto, a Jewish Educational Program</li>
+                    <div className="internal-content-div">
+                        <h4>Generative Research</h4>
+                        <p>We were interested in learning about how people attend virtual events.
+                            We used the think-aloud protocol while a user explored AirBnb’s website.</p>
+                        <h5>Questions</h5>
+                        <ul>
+                            <li>Find a virtual event you would actually want to attend within the next week.
+                                Pretend you would actually attend the event -- the virtual event needs to fit into your schedule,
+                                and you would hypothetically need to pay for the event.</li>
+                            <li>Find a virtual dance class to attend with your family around Thanksgiving.</li>
+                            <li>You want to give a virtual experience to your friend for their birthday.
+                                Your friend is only available in the evenings to take this class.
+                                Find a virtual experience to gift to your friend.</li>
+                        </ul>
+                        <h5>Major Themes</h5>
+                        <ol>
+                            <li>Events should have a value proposition
+                                <ul>
+                                    <li>Users seemed to primarily think about which experiences could give them the most value, or add to their lives in some way.</li>
+                                    <li> When promoting an event, prioritize the channels that allow users to determine if a given event will add value (reviews/ratings, photos/videos, descriptions, etc.)</li>
+                                </ul>
+                            </li>
+                            <li>Virtual experience is worth less to users
+                                <ul>
+                                    <li>Users don’t enjoy virtual experiences as much, so they are less willing to pay for virtual experiences.</li>
+                                    <li>We should mimic the in-person experience as much as possible, and carefully select the event platform.</li>
+                                </ul>
+                            </li>
+                            <li>Filters are useful for finding events that match criteria
+                                <ul>
+                                    <li>Users utilize filters to find events of interest and events that fit their schedule.</li>
+                                    <li>We should consider have filter options when displaying the events list.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h4>Contextual Inquiry</h4>
+                        <p>We wanted to learn how artists, streamers, and other event hosts utilize different platforms to conduct their events, as well as the pain points (and what is going well) for the artists/streamers. How artists define a successful virtual event was also
+                            a key insight for us to gauge how streaming platforms may contribute to or inhibit the potential of a virtual class.</p>
+                        <h5>Target Participants</h5>
+                        <ul>
+                            <li>Student dance class instructor</li>
+                            <li>Pound (fitness) instructor </li>
+                            <li>Private music lesson teacher</li>
+                            <li>Yoga instructor</li>
+                            <li>COO (Chief Operating Officer) of Aish Toronto, a Jewish Educational Program</li>
 
-                    </ul>
-                    <h5>Major Themes</h5>
-                    <ol>
-                        <li>Technological difficulties and limitations significantly reduce the quality of the event and the host’s ability to effectively run the event. The burden to find an appropriate platform and create “hacks” to adjust for these issues has fallen on the host.
-                            <ul>
-                                <li>“If you’re trying to share a video over Zoom… it just stalls everyone’s internet and it’s a mess”</li>
-                                <li>“Issues because Skype couldn’t handle [video and audio streaming at the same time] at that point”</li>
-                            </ul>
-                        </li>
-                        <li>Although hosts are willing to try a variety of strategies to increase participation, audience engagement in virtual events is still a challenge hosts face.
-                            <ul>
-                                <li>“I like to go ‘thumbs up’ if you feel good, ‘thumbs down’ if you don’t but a lot of times cameras are off anyway”</li>
-                                <li>“No one interacts with me as a teacher”</li>
-                                <li>“[The] biggest issue is ‘I asked this before but it was never answered”</li>
-                            </ul>
-                        </li>
-                        <li>Pre-event promotion plays a large factor into audience size and audience engagement during the event. Outside and organizational support helps increase audience attendance, therefore making the host feel more confident in their ability to deliver a successful virtual event.
-                            <ul>
-                                <li>“Whenever the event is connected to something else … a lot of people show up”</li>
-                                <li>“I told all my friends that I’m hosting this event, and it’s my own choreo so I really cared about this one … but no one showed up”</li>
-                            </ul>
-                        </li>
-                    </ol>
+                        </ul>
+                        <h5>Major Themes</h5>
+                        <ol>
+                            <li>Technological difficulties and limitations significantly reduce the quality of the event and the host’s ability to effectively run the event. The burden to find an appropriate platform and create “hacks” to adjust for these issues has fallen on the host.
+                                <ul>
+                                    <li>“If you’re trying to share a video over Zoom… it just stalls everyone’s internet and it’s a mess”</li>
+                                    <li>“Issues because Skype couldn’t handle [video and audio streaming at the same time] at that point”</li>
+                                </ul>
+                            </li>
+                            <li>Although hosts are willing to try a variety of strategies to increase participation, audience engagement in virtual events is still a challenge hosts face.
+                                <ul>
+                                    <li>“I like to go ‘thumbs up’ if you feel good, ‘thumbs down’ if you don’t but a lot of times cameras are off anyway”</li>
+                                    <li>“No one interacts with me as a teacher”</li>
+                                    <li>“[The] biggest issue is ‘I asked this before but it was never answered”</li>
+                                </ul>
+                            </li>
+                            <li>Pre-event promotion plays a large factor into audience size and audience engagement during the event. Outside and organizational support helps increase audience attendance, therefore making the host feel more confident in their ability to deliver a successful virtual event.
+                                <ul>
+                                    <li>“Whenever the event is connected to something else … a lot of people show up”</li>
+                                    <li>“I told all my friends that I’m hosting this event, and it’s my own choreo so I really cared about this one … but no one showed up”</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
                 </Col>
             </Row>
             <Row className='section-title-row justify-content-center'>
@@ -208,7 +212,7 @@ function CommunityContent(){
                             <li>Participants prefer to attend events with friends; as such, friends play a large role in determining what events
                                 participants decide to attend. If the participant doesn’t know anyone at the event, they are less likely to attend.
                                 The lack of accountability for attendance in virtual events leads to lower turnout and lower engagement.</li>
-                        </ol
+                        </ol>
                     </div>
                 </Col>
             </Row>
