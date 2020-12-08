@@ -13,20 +13,26 @@
 .initial-image{
     width: 100%;
 }
+.initial-mobile{
+    width: 80%;
+}
 .initial-image-div{
     display: flex;
     margin: auto;
 }
 .initial-image-row{
     height: 90vh;
-    background-color: teal;
+    background-color: #b1d8d8;
     margin-bottom: 10vh;
 }
 .tracker-image{
-    background-color: #800059;
+    background-color: #d5abc8;
 }
 .catalog-image{
-    background-color: #008007;
+    background-color: #c8bbdd;
+}
+.community-image{
+    background-color: #f0b0b8;
 }
 .title-row{
     margin-bottom: 2rem;
@@ -68,7 +74,24 @@
     margin-bottom: 0;
     font-weight: 500;
 }
-
 .initial-info{
     margin-bottom: .75rem;
+}
+.profile-picture{
+    width: 100%;
+}
+.about-text{
+    padding: 1rem 2rem;
+}
+.about-text-div{
+    margin: auto;
+}
+.linkedin-text{
+    margin: 0rem 1rem;
+}
+.linkedin-link{
+    font-weight: bold;
+}
+.linkedin-link:hover{
+    color: teal;
 }

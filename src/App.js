@@ -5,8 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-import './projectStyling.css';
 import './contactStyling.css';
+import './projectStyling.css';
 
 import Footer from './components/General/Footer';
 import HomePage from './pages/HomePage';
@@ -16,6 +16,7 @@ import WorkPage from "./pages/WorkPage";
 import GoCorsicanaPage from "./pages/GoCorsicanaPage";
 import TrackerPage from "./pages/TrackerPage";
 import CatalogPage from "./pages/CatalogPage";
+import CommunityPage from "./pages/CommunityPage";
 
 class App extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class App extends React.Component {
         subTitle: "Designing Human-Centric Experiences",
       },
       about: {
-        title: 'About Me',
+        subTitle: 'Hi I\'m Piper',
       },
       contact: {
         title: 'Let\'s Connect'
@@ -55,20 +56,21 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
-                  <Link ClassName="nav-link" to="/work">Work</Link>
-                  <Link ClassName="nav-link" to="/about">About</Link>
-                  <Link ClassName="nav-link" to="/contact">Contact</Link>
+                  <Link className="nav-link" to="/work">Work</Link>
+                  <Link className="nav-link" to="/about">About</Link>
+                  <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
               </Navbar.Collapse>
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title}  subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/about" render={() => <AboutPage title={this.state.about.subTitle} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           <Route path="/work" render={() => <WorkPage title={this.state.work.title} />} />
           <Route path="/GoCorsicanaPage" render={() => <GoCorsicanaPage/>} />
           <Route path="/TrackerPage" render={() => <TrackerPage/>} />
           <Route path="/CatalogPage" render={() => <CatalogPage/>} />
+          <Route path="/CommunityPage" render={() => <CommunityPage/>} />
 
           {/*<Footer />*/}
 

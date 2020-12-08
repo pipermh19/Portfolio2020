@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  color: #1f1f1f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,30 +13,49 @@ code {
 }
 .h-card{
   margin: 20px;
-  box-shadow: 0px 8px 3px 1px #ccc;
+  box-shadow: 0px 8px 10px 0px #dcdcdc;
   background-color: #cfcfcf;
   width: 200px;
   height: 200px;
   border-radius: 10px;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   justify-content: center;
+  line-height: normal;
+}
+.project-0{
+  background-color: #b1d8d8;
+}
+.project-1{
+  background-color: #d5abc8;
+}
+.project-2{
+  background-color: #c8bbdd;
+}
+.project-3{
+  background-color: #f0b0b8;
+}
+.page-1{
+  background-color: #a2a2a2;
+}
+.page-2{
+  background-color: #838383;
 }
 a{
-  color: black;
+  color: #1f1f1f;
 }
 a:hover{
-  color: black;
+  color: #1f1f1f;
   cursor: pointer;
   text-decoration: none;
   color: white;
 }
-div#navbar-toggle.navbar-collapse.collapse div.ml-auto.navbar-nav a{
+.nav-link{
   padding: 0 1rem;
+  color:#1f1f1f;
 }
-div#navbar-toggle.navbar-collapse.collapse div.ml-auto.navbar-nav a:hover{
-  color: teal;
+.nav-link:hover{
   font-weight: bold;
 }
 .title-div{
