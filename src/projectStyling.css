@@ -101,8 +101,18 @@
     background-color: #f9e1e4;
 }
 .community-image{
-    width: 100%;
-    margin-bottom: 1.5rem;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 487px) {
+    .community-image{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
 }
 .community-image-middle{
     width: 100%;
