@@ -13,23 +13,23 @@ class ProjectsContainer extends React.Component{
             items:[
                 {
                     id: 0,
+                    title: "Community On the Go",
+                    path: '/CommunityPage',
+                },
+                {
+                    id: 1,
                     title: "GoCorsicana",
                     path: '/GoCorsicanaPage',
                 },
                 {
-                    id: 1,
+                    id: 2,
                     title: "Tracker",
                     path: '/TrackerPage',
                 },
                 {
-                    id: 2,
+                    id: 3,
                     title: "Catalog",
                     path: '/CatalogPage',
-                },
-                {
-                    id: 3,
-                    title: "Community On the Go",
-                    path: '/CommunityPage',
                 },
             ]
         }
