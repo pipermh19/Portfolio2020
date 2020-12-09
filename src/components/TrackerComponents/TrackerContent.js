@@ -28,7 +28,7 @@ function TrackerContent(){
             <animated.div style={props}>
                 <Row className="initial-image-row tracker-image">
                     <Col className='justify-content-center initial-image-div' xs={10} md={8} lg={6}>
-                        <img className="initial-image" src={img1} alt="image of the login page on a laptop"></img>
+                        <img className="initial-image" src={img1} alt="image of tracker application on laptop"></img>
                     </Col>
                 </Row>
             </animated.div>
@@ -88,24 +88,24 @@ function TrackerContent(){
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <img className="image" src={img2} alt="image of other platforms"></img>
+                    <img className="image" src={img2} alt="tracker landing page"></img>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <img className="image" src={img3} alt="image of other platforms"></img>
+                    <img className="image" src={img3} alt="initial tracker design"></img>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <Row>
                         <Col className='justify-content-center' md={8} xs={12}>
-                            <img className="image" src={img4} alt="image of order tracker result details"></img>
+                            <img className="image" src={img4} alt="initial tracker details page"></img>
                             <img className="image" src={img7} alt="image of order tracker result details fedex in progress"></img>
                             <img className="image" src={img8} alt="image of order tracker result details fedex delivered"></img>
                         </Col>
                         <Col className='justify-content-center' md={4} xs={12}>
-                            <img className="image" src={img6} alt="image of other platforms"></img>
+                            <img className="image" src={img6} alt="tracker on mobile platform"></img>
                         </Col>
                     </Row>
                 </Col>
@@ -125,10 +125,10 @@ function TrackerContent(){
                         <Col className='justify-content-right image-div' lg={8} md={5} xs={12}>
                             <Row>
                                 <Col md={6} xs={12}>
-                                    <img className="image" src={img5} alt="image of other platforms"></img>
+                                    <img className="image" src={img5} alt="tracker on mobile"></img>
                                 </Col>
                                 <Col md={6} xs={12}>
-                                    <img className="image" src={img9} alt="image of other platforms"></img>
+                                    <img className="image" src={img9} alt="gif of tracker on mobile"></img>
                                 </Col>
                             </Row>
 

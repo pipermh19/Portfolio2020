@@ -10,12 +10,12 @@ function AboutContent(){
     return(
         <Container fluid={true} className="justify-content-center">
             <Row className="justify-content-center">
-                <Col className="justify-content-center" lg={8}>
+                <Col className="justify-content-center" lg={8} md={10} xs={11}>
                     <Row className="justify-content-center" >
-                        <Col lg={4}>
+                        <Col lg={4} md={4} xs={12}>
                             <img className="profile-picture" src={img1} alt="Headshot of Piper Hayden"></img>
                         </Col>
-                        <Col className="about-text-div" lg={8}>
+                        <Col className="about-text-div" lg={8} md={8} xs={12}>
                             <Row>
                             <p className="about-text">I’m a UX/UI Designer and developer with four years of experience envisioning,
                                 craftng and developing human centric digital interfaces. Working with customers,

@@ -24,7 +24,7 @@ function CatalogContent(){
             <animated.div style={props}>
                 <Row className="initial-image-row catalog-image">
                     <Col className='justify-content-center initial-image-div' xs={10} md={8} lg={6}>
-                        <img className="initial-image" src={img1} alt="image of the login page on a laptop"></img>
+                        <img className="initial-image" src={img1} alt="laptop image of catalog application"></img>
                     </Col>
                 </Row>
             </animated.div>
@@ -80,22 +80,22 @@ function CatalogContent(){
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <img className="image" src={img2} alt="image of other platforms"></img>
+                    <img className="image" src={img2} alt="scrolling through catalog"></img>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <img className="image" src={img3} alt="image of other platforms"></img>
+                    <img className="image" src={img3} alt="desktop catalog view"></img>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <Row>
                         <Col className='justify-content-center' md={6} xs={12}>
-                            <img className="image" src={img4} alt="image of order tracker result details"></img>
+                            <img className="image" src={img4} alt="mobile view of deleting item"></img>
                         </Col>
                         <Col className='justify-content-center' md={6} xs={12}>
-                            <img className="image" src={img5} alt="image of other platforms"></img>
+                            <img className="image" src={img5} alt="mobile view of adding item"></img>
                         </Col>
                     </Row>
                 </Col>

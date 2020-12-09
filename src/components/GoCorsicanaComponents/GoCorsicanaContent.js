@@ -111,7 +111,7 @@ function GoCorsicanaContent(){
                             </div>
                         </Col>
                         <Col className='justify-content-center image-div' lg={8} md={8} xs={12}>
-                            <img className="image" src={platformReview} alt="image of other dashboard on phone and desktop"></img>
+                            <img className="image" src={platformReview} alt="other company's dashboards"></img>
                         </Col>
                     </Row>
                 </Col>
@@ -139,7 +139,7 @@ function GoCorsicanaContent(){
                             </div>
                         </Col>
                         <Col className='justify-content-center image-div' lg={8} md={8} xs={12}>
-                            <img className="image" src={dashboardMobileDesktop} alt="image of other platforms"></img>
+                            <img className="image" src={dashboardMobileDesktop} alt="dashboard on laptop and mobile"></img>
                         </Col>
                     </Row>
                 </Col>
@@ -151,22 +151,22 @@ function GoCorsicanaContent(){
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <img className="image" src={login} alt="image of other platforms"></img>
+                    <img className="image" src={login} alt="initial login pages"></img>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <img className="image" src={fourLoginViews} alt="image of other platforms"></img>
+                    <img className="image" src={fourLoginViews} alt="login page iteration"></img>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <Row>
                         <Col className='justify-content-center' md={8} xs={12}>
-                            <img className="image" src={loginDesktop} alt="image of other platforms"></img>
+                            <img className="image" src={loginDesktop} alt="final login page dashboard"></img>
                         </Col>
                         <Col className='justify-content-center' md={4} xs={12}>
-                            <img className="image" src={loginMobile} alt="image of other platforms"></img>
+                            <img className="image" src={loginMobile} alt="final login mobile"></img>
                         </Col>
                     </Row>
                 </Col>
@@ -175,10 +175,10 @@ function GoCorsicanaContent(){
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <Row>
                         <Col className='justify-content-center' md={6} xs={12}>
-                            <img className="image" src={navChangeDash} alt="image of other platforms"></img>
+                            <img className="image" src={navChangeDash} alt="side nav expanded and collapsed"></img>
                         </Col>
                         <Col className='justify-content-center' md={6} xs={12}>
-                            <img className="image" src={navChangeDash2} alt="image of other platforms"></img>
+                            <img className="image" src={navChangeDash2} alt="sales user dashboard"></img>
                         </Col>
                     </Row>
                 </Col>

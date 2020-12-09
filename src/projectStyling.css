@@ -76,9 +76,6 @@
 .initial-info{
     margin-bottom: .75rem;
 }
-.profile-picture{
-    width: 100%;
-}
 .about-text{
     padding: 1rem 2rem;
 }
@@ -106,12 +103,21 @@
     width: 50%;
     margin-bottom: 1rem;
 }
+.profile-picture{
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
 @media screen and (min-width: 487px) {
     .community-image{
         display: block;
         margin: auto;
         width: 100%;
         margin-bottom: 1.5rem;
+    }
+    .profile-picture{
+        display: block;
+        width: 100%;
     }
 }
 .community-image-middle{
