@@ -14,7 +14,7 @@
     width: 100%;
 }
 .initial-mobile{
-    width: 80%;
+    width: 90%;
 }
 .initial-image-div{
     display: flex;
@@ -76,14 +76,11 @@
 .initial-info{
     margin-bottom: .75rem;
 }
-.about-text{
-    padding: 1rem 2rem;
-}
 .about-text-div{
     margin: auto;
 }
-.linkedin-text{
-    margin: 0rem 1rem;
+.contactInfo-col{
+    padding: 0;
 }
 .linkedin-link{
     font-weight: bold;
@@ -118,6 +115,18 @@
     .profile-picture{
         display: block;
         width: 100%;
+    }
+    .initial-image{
+        width: 80%;
+    }
+    .about-text{
+        padding: 1rem 2rem;
+    }
+    .linkedin-text{
+        margin: 0rem 1rem;
+    }
+    .contactInfo-col{
+        padding: 0 15px;
     }
 }
 .community-image-middle{

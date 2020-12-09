@@ -29,12 +29,12 @@ function AboutContent(){
                             </p>
                             </Row>
                             <Row>
-                                <Col>
+                                <Col className="contactInfo-col">
                                     <div className="linkedin-text">
                                         <a className="linkedin-link"href={'https://www.linkedin.com/in/piperhayden19/'} target="_blank">Linkedin</a>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col className="contactInfo-col">
                                     <div className="email-text">
                                         <p>Piper.1.Hayden@gmail.com</p>
                                     </div>

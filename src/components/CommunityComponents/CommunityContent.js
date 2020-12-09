@@ -14,6 +14,8 @@ import img4 from './assets/Mobile-Home-List.png';
 import img5 from './assets/Mobile-MyEvents.png';
 import img6 from './assets/Mobile-Forum.png';
 import img7 from './assets/Mobile-Messages.png';
+import img8 from './assets/TAP.png';
+
 
 
 function CommunityContent(){
@@ -115,6 +117,9 @@ function CommunityContent(){
                         <p>Through out our research we used a think-aloud protocol. A think-aloud protocol is a method used in a variety of research areas in
                             which a person or a group of people are asked to verbalise their thought processes as they do a specific task which are then recorded.
                             We used this method for generative research as well as for insight into possible solutions</p>
+                    </div>
+                    <div>
+                        <img className="community-image-middle" src={img8} alt="UFT Examples"></img>
                     </div>
                 </Col>
             </Row>
