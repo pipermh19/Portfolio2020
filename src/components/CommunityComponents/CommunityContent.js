@@ -257,16 +257,16 @@ function CommunityContent(){
                 </Col>
             </Row>
             <Row className='justify-content-center'>
-                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={4} xs={11}>
                     <img className="community-image" src={img4} alt="High Fidelity Prototype"></img>
                 </Col>
-                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={4} xs={11}>
                     <img className="community-image" src={img5} alt="High Fidelity Prototype"></img>
                 </Col>
-                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={4} xs={11}>
                     <img className="community-image" src={img6} alt="High Fidelity Prototype"></img>
                 </Col>
-                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={4} xs={11}>
                     <img className="community-image" src={img7} alt="High Fidelity Prototype"></img>
                 </Col>
             </Row>
