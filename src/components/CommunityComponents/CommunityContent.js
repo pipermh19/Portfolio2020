@@ -7,7 +7,13 @@ import Col from "react-bootstrap/Col";
 import { useSpring, animated } from 'react-spring';
 
 
-import img1 from './assets/InitialPhoto.png'
+import img1 from './assets/InitialPhoto.png';
+import img2 from './assets/affinity.png';
+import img3 from './assets/StoryBoards.png';
+import img4 from './assets/Mobile-Home-List.png';
+import img5 from './assets/Mobile-MyEvents.png';
+import img6 from './assets/Mobile-Forum.png';
+import img7 from './assets/Mobile-Messages.png';
 
 
 function CommunityContent(){
@@ -18,7 +24,7 @@ function CommunityContent(){
     return(
         <Container fluid={true} className="justify-content-center">
             <animated.div style={props}>
-                <Row className="initial-image-row community-image">
+                <Row className="initial-image-row community-image-main">
                     <Col className='justify-content-center initial-image-div' xs={10} md={8} lg={6}>
                         <img className="initial-image initial-mobile" src={img1} alt="image of the login page on a laptop"></img>
                     </Col>
@@ -59,12 +65,12 @@ function CommunityContent(){
                     </Row>
                 </Col>
             </Row>
-            <Row className='section-title-row justify-content-center'>
+            <Row className='section-title-row justify-content-center community-row-colored'>
                 <Col data-aos="fade" xs={12} md={10} lg={8}>
                     <p className="section-title">Problem</p>
                 </Col>
             </Row>
-            <Row className='justify-content-center'>
+            <Row className='justify-content-center community-row-colored'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <div>
                         <p>Participants in virtual events experience struggle to engage with hosts and other participants
@@ -112,12 +118,12 @@ function CommunityContent(){
                     </div>
                 </Col>
             </Row>
-            <Row className='section-title-row justify-content-center'>
+            <Row className='section-title-row justify-content-center community-row-colored'>
                 <Col data-aos="fade" xs={12} md={10} lg={8}>
                     <p className="section-title">Insight</p>
                 </Col>
             </Row>
-            <Row className='justify-content-center'>
+            <Row className='justify-content-center community-row-colored '>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <div className="internal-content-div">
                         <h4>Generative Research</h4>
@@ -156,6 +162,9 @@ function CommunityContent(){
                         </ol>
                     </div>
                     <div>
+                        <img className="community-image-middle" src={img2} alt="Affinity Board"></img>
+                    </div>
+                    <div className="internal-content-div">
                         <h4>Contextual Inquiry</h4>
                         <p>We wanted to learn how artists, streamers, and other event hosts utilize different platforms to conduct their events, as well as the pain points (and what is going well) for the artists/streamers. How artists define a successful virtual event was also
                             a key insight for us to gauge how streaming platforms may contribute to or inhibit the potential of a virtual class.</p>
@@ -166,7 +175,6 @@ function CommunityContent(){
                             <li>Private music lesson teacher</li>
                             <li>Yoga instructor</li>
                             <li>COO (Chief Operating Officer) of Aish Toronto, a Jewish Educational Program</li>
-
                         </ul>
                         <h5>Major Themes</h5>
                         <ol>
@@ -200,11 +208,17 @@ function CommunityContent(){
             </Row>
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
-                    <div>
+                    <div className="internal-content-div">
+                        <p>Virtual events create a disconnect -- participants are unsure of what to expect in a virtual format,
+                            and they struggle to engage with the host and other attendees when they have to rely on technology
+                            for developing new social interactions. The Community on the Go website creates a community-based
+                            platform for Kelly Strayhorn Theater virtual events that facilitates interactions between
+                            participants and hosts to increase engagement and reduce uncertainty about class expectations.
+                        </p>
                         <h4>Speed Dating</h4>
                         <h5>Feedback</h5>
                         <ol>
-                            <li> Engagement in virtual events is low because participants are uncomfortable speaking in large groups and directly asking
+                            <li>Engagement in virtual events is low because participants are uncomfortable speaking in large groups and directly asking
                                 instructors questions. They are unsure about social norms and self-conscious about turning their videos on.</li>
                             <li>Participants don’t like interrupting the host during the event, even though in-person they might have.
                                 Because of this, they have unanswered questions and don’t engage with the host.</li>
@@ -213,7 +227,47 @@ function CommunityContent(){
                                 participants decide to attend. If the participant doesn’t know anyone at the event, they are less likely to attend.
                                 The lack of accountability for attendance in virtual events leads to lower turnout and lower engagement.</li>
                         </ol>
+                        <h5>Needs</h5>
+                        <ol>
+                            <li> Participants want to speak with other attendees without interrupting the host</li>
+                            <li>For recurring events, there is a stronger desire to create rapport with the host and other attendees</li>
+                            <li>Participants are uncertain about expectations at virtual events; they rely on the behavior
+                                of other attendees to decide what the social norms are and follow those</li>
+                            <li>Participants would like to attend events with friends or people they are already
+                                comfortable with to chat and ask questions during the event</li>
+                        </ol>
                     </div>
+                    <div>
+                        <img className="community-image-middle" src={img3} alt="Story Boards"></img>
+                    </div>
+                    <div className="internal-content-div">
+                        <h4>Prototype</h4>
+                        <h5>Lo-Fidelity</h5>
+                            <p>We chose low-fidelity over mid/high-level fidelities because we want to evaluate our storyboard rather than the specific design details of our solution.
+                                The low fidelity will allow the users to focus on their needs and the solution concept.
+                                In addition, because most people will use their phones to navigate websites, we decided to go with a mobile-first approach to prototyping.</p>
+                        <h5>High-Fidelity</h5>
+                            <p> After testing the lo-fi prototype we found the following. Users were annoyed that they had to go to the event details page to register, instead of immediately registering for an event from the list of all events.
+                                When trying to find more information about an event, participants were inclined to click on the name of the event or the event image.
+                                Users were initially unsure about how to contact the host, as there was no indication that the chat button would connect the user to the host.
+                                The chat icon at the bottom of the screen could be confusing for users, especially those less familiar with technology.
+                                The lack of color made it difficult for users to determine what information was important on each page.
+                            </p>
+                    </div>
+                </Col>
+            </Row>
+            <Row className='justify-content-center'>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                    <img className="community-image" src={img4} alt="High Fidelity Prototype"></img>
+                </Col>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                    <img className="community-image" src={img5} alt="High Fidelity Prototype"></img>
+                </Col>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                    <img className="community-image" src={img6} alt="High Fidelity Prototype"></img>
+                </Col>
+                <Col data-aos="fade" className='justify-content-center content-container' lg={2} md={10} xs={11}>
+                    <img className="community-image" src={img7} alt="High Fidelity Prototype"></img>
                 </Col>
             </Row>
         </Container>
