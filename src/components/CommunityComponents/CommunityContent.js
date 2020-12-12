@@ -1,3 +1,4 @@
+// Imported Components
 import React, {useEffect} from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
@@ -6,7 +7,7 @@ import "aos/dist/aos.css"
 import Col from "react-bootstrap/Col";
 import { useSpring, animated } from 'react-spring';
 
-
+//Imported Images
 import img1 from './assets/InitialPhoto.png';
 import img2 from './assets/affinity.png';
 import img3 from './assets/StoryBoards.png';
@@ -25,6 +26,7 @@ function CommunityContent(){
     }, []);
     return(
         <Container fluid={true} className="justify-content-center">
+            {/* Project Content */}
             <animated.div style={props}>
                 <Row className="initial-image-row community-image-main">
                     <Col className='justify-content-center initial-image-div' xs={10} md={8} lg={6}>

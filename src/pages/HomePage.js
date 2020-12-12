@@ -1,7 +1,9 @@
+// Imported Components
 import React from "react";
 import HeroTwo from "../components/General/HeroTwo"
 import PagesContainer from "../components/PagesComponents/PagesContainer";
 
+// Home page component that holds the pages component, as well as the title component
 function HomePage(props){
 
     return(
@@ -10,5 +12,6 @@ function HomePage(props){
             <PagesContainer />
         </div>
     )
+
 }
 export default HomePage;

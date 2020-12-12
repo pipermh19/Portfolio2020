@@ -1,10 +1,13 @@
+// Imported Components
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
+//The title component that takes in a title prop, and subtitle prop as well as a text prop
 function HeroTwo(props){
+
     return(
         <Jumbotron className="bg-transparent jumbotron-fluid jumbotron-main">
             <Container fluid={true}>
@@ -18,6 +21,7 @@ function HeroTwo(props){
             </Container>
         </Jumbotron>
     );
+
 }
 
 export default HeroTwo

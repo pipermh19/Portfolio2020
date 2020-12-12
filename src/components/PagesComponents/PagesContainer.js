@@ -1,11 +1,13 @@
+// Imported Components
 import React from 'react';
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-
 import PageCard from "./PageCard";
 
+// Component to Hold Cards for pages. I.E. About, Work, Contact Page
 class PagesContainer extends React.Component{
 
+    //Holds state for cards
     constructor(props) {
         super(props);
         this.state = {
@@ -32,28 +34,14 @@ class PagesContainer extends React.Component{
         }
     }
 
-    handleItemClick = (id,card) => {
-        let items = [...this.state.items];
-
-        items[id].selected = items[id].selected ? false : true;
-
-        items.forEach(item => {
-            if(item.id !== id){
-                item.selected = false;
-            }
-        });
-
-        this.setState({
-            items
-        });
-    }
-
+    //Creates Cards
     createItems = (items) => {
         return items.map(item => {
-            return <PageCard item={item} onClick={(e => this.handleItemClick(item.id, e))} key={item.id}/>
+            return <PageCard item={item} key={item.id}/>
         })
     }
 
+    //Container to hold cards
     render() {
         return(
             <Container fluid={true}>
@@ -65,5 +53,6 @@ class PagesContainer extends React.Component{
     }
 
 }
+
 export default PagesContainer;
 

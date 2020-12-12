@@ -133,3 +133,13 @@
     width: 100%;
     margin: 2rem 0;
 }
+.msg-sent{
+    color: green;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.msg-failed{
+    color: red;
+    margin-left: 1rem;
+    font-weight: 500;
+}

@@ -1,14 +1,17 @@
+// Imported Components
 import React, {useEffect} from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 
+// Imported Images
 import img1 from "./assets/Headshot_Circle.png"
 
 function AboutContent(){
 
     return(
         <Container fluid={true} className="justify-content-center">
+            {/* Project Content */}
             <Row className="justify-content-center">
                 <Col className="justify-content-center" lg={8} md={10} xs={11}>
                     <Row className="justify-content-center" >

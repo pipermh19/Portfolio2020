@@ -1,3 +1,4 @@
+// Imported Components
 import React, {useEffect} from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
@@ -6,6 +7,7 @@ import "aos/dist/aos.css"
 import Col from "react-bootstrap/Col";
 import { useSpring, animated } from 'react-spring';
 
+//Imported Images
 import platformReview from "./assets/platformReview.png"
 import dashboardMobileDesktop from './assets/laptopPhoneDash.png'
 import login from './assets/GoCorsicanaLogIn.png'
@@ -15,14 +17,18 @@ import loginMobile from './assets/loginMobile2.png'
 import navChangeDash from './assets/navChangeDash.png'
 import navChangeDash2 from './assets/navChangeDash2.png'
 import initialImg from './assets/Login4.2Laptop.png'
+import {Link} from "react-router-dom";
 
+//Component that holds all of the GoCoriscana application content
 function GoCorsicanaContent(){
     const props = useSpring({opacity: 1, from: {opacity: 0}})
+    //Initializes scroll animation
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
     return(
         <Container fluid={true} className="justify-content-center">
+            {/* Project Content */}
             <animated.div style={props}>
                 <Row className="initial-image-row">
                     <Col className='justify-content-center initial-image-div' xs={10} md={8} lg={6}>

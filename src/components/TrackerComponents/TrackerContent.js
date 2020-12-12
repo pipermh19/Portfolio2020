@@ -1,3 +1,4 @@
+//Imported components
 import React, {useEffect} from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
@@ -6,6 +7,7 @@ import "aos/dist/aos.css"
 import Col from "react-bootstrap/Col";
 import { useSpring, animated } from 'react-spring';
 
+//Imported Images
 import img2 from "./assets/results2a.png"
 import img3 from './assets/orderMock1.png'
 import img4 from './assets/details3.png'
@@ -16,22 +18,25 @@ import img8 from './assets/FedexDelivered.png'
 import img9 from './assets/results.gif'
 import img1 from './assets/laptop_Tracker.png'
 
-
-
+//Portfolio Piece Content: Order Tracker
 function TrackerContent(){
     const props = useSpring({opacity: 1, from: {opacity: 0}})
+    // Initializing Animation on Scroll Library
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
     return(
         <Container fluid={true} className="justify-content-center">
+            {/* Fade animation from React Spring */}
             <animated.div style={props}>
+                {/* Initial project image */}
                 <Row className="initial-image-row tracker-image">
                     <Col className='justify-content-center initial-image-div' xs={10} md={8} lg={6}>
                         <img className="initial-image" src={img1} alt="image of tracker application on laptop"></img>
                     </Col>
                 </Row>
             </animated.div>
+            {/* Project content */}
             <Row className='justify-content-center title-row'>
                 <Col data-aos="fade" className='justify-content-center' xs={11} md={10} lg={8}>
                     <h1>Order Tracker</h1>

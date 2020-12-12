@@ -1,12 +1,12 @@
+// Imported Components
 import React from 'react';
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-
 import ProjectsCard from "./ProjectsCard"
 
 
 class ProjectsContainer extends React.Component{
-
+// Maintains state for project cards
     constructor(props) {
         super(props);
         this.state = {
@@ -35,13 +35,13 @@ class ProjectsContainer extends React.Component{
         }
     }
 
-
+// Function to create cards
     createItems = (items) => {
         return items.map(item => {
             return <ProjectsCard item={item} key={item.id}/>
         })
     }
-
+// Container that holds cards
     render() {
         return(
             <Container fluid={true}>
@@ -53,5 +53,6 @@ class ProjectsContainer extends React.Component{
     }
 
 }
+
 export default ProjectsContainer;
 
