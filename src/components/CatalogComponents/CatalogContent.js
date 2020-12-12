@@ -78,7 +78,7 @@ function CatalogContent(){
             </Row>
             <Row className='section-title-row justify-content-center'>
                 <Col data-aos="fade" xs={12} md={10} lg={8}>
-                    <p className="section-title">DESIGNS</p>
+                    <p className="section-title">Designs</p>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
