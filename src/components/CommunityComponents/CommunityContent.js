@@ -98,6 +98,12 @@ function CommunityContent(){
             <Row className='justify-content-center'>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
                     <div>
+                        <p> In order to get a holistic view of the user’s needs, we engaged in a variety of
+                            research methods with both the hosts and participants of virtual events, such as speed dating,
+                            think aloud protocols, contextual inquiries, and semi-structured interviews.
+                        </p>
+                    </div>
+                    <div>
                         <h5>Contextual Inquiry</h5>
                         <p>Our goal was to learn more about experience of hosting a virtual event.
                             We conducted five interviews that embedded directed storytelling within a semi-structured interview.
@@ -132,6 +138,14 @@ function CommunityContent(){
             </Row>
             <Row className='justify-content-center community-row-colored '>
                 <Col data-aos="fade" className='justify-content-center content-container' lg={8} md={10} xs={11}>
+                    <div className="internal-content-div">
+                        <p>Our research showed participants preferred smaller group interactions
+                            to speaking in the larger group, which led to turned-off cameras and muted mics. The lack of engagement
+                            frustrated hosts and participants alike, but participants were hesitant to increase interactions due
+                            to uncertainty about social norms and avoiding interruptions of the event. However, we also found
+                            that participants were more likely to increase interactions if they developed rapport with the host and
+                            other participants.</p>
+                    </div>
                     <div className="internal-content-div">
                         <h4>Generative Research</h4>
                         <p>We were interested in learning about how people attend virtual events.
